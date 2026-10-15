@@ -3,4 +3,4 @@
 VERSION = "1.0.0"
 
 # GitHub repository ("owner/name") whose Releases hold new builds. Empty disables update checks.
-UPDATE_REPO = "igor-alconost/kindlebooks"
+UPDATE_REPO = "macbethad/kindlebooks"
