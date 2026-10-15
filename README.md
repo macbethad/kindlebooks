@@ -68,7 +68,7 @@ settings panel. The exe must live in a folder the user can write to (Documents, 
 To publish an update:
 
 1. Raise `VERSION` in `app/version.py` (e.g. `1.0.0` → `1.1.0`) and commit.
-2. Run `.elease.ps1 "Что нового — одной строкой"`: it builds the exe, pushes, and creates release `v1.1.0`
+2. Run `.\release.ps1 "Что нового — одной строкой"`: it builds the exe, pushes, and creates release `v1.1.0`
    with `KindleBooks.exe` attached. The note is what the user sees under the banner.
 
 Needs the GitHub CLI (`gh`) logged in to the account that owns the repository.
